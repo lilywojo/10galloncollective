@@ -1,0 +1,374 @@
+*{ 
+    margin: 0;
+    padding:0;
+}
+
+h2 { 
+text-align: center; 
+font-family:avenir; 
+font-size: 18px;
+padding-left: 0;
+padding-top: 50;
+color: #555;
+}
+
+h3 { 
+text-align: center; 
+font-family: baskerville light; 
+font-size: 18px;
+padding-left: 0;
+padding-top: 80;
+color: palegoldenrod; 
+}
+
+h4 { 
+    text-align: center; 
+    font-family:avenir; 
+    font-size: 30px;
+    padding-left: 0;
+    padding-top: 100px;
+    color: lightsalmon; 
+    }
+
+    .column {
+        opacity: 1;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container:hover .column {
+        opacity: 0.3;
+      }
+      
+      .container:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        background-color: #FFB6C1;
+        color: white;
+        font-size: 22px;
+        padding: 16px 32px;
+      }
+
+
+    
+
+.wrapper {
+width: 1170 px;
+margin: auto;
+}
+
+header {
+background: url("images/homepic.jpg");
+height: 100vh; 
+background-size: cover;
+background-position: center center; 
+position: relative; 
+
+}
+
+.nav-area{ 
+   float: right; 
+   list-style: none; 
+   margin-top: 30px; 
+   padding-right: 20px;
+   justify-content: space-between; 
+
+}
+
+.nav-area li { 
+display: inline-block; 
+
+}
+
+.nav-area li a { 
+    color: #555;
+    padding: 5px 20 px; 
+    font-size: 19px; 
+    text-decoration: none;
+}
+    
+.nav-area li a:hover{
+background: none; 
+color: palegoldenrod; 
+}
+
+.welcome-text{ 
+    position: absolute; 
+    width: 600px; 
+    height: 300px; 
+    margin: 20% 30%; 
+    text-align: center; 
+    font-size: 40px; 
+    color: #fff;
+
+
+}
+
+.welcome-text a{ 
+border: 1 px solid #fff;
+padding: 20 px 25px; 
+text-decoration: none; 
+font-size: 22px; 
+margin-top: 20px; 
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+color: pink;
+}
+
+.welcome-text a:hover {
+background: none; 
+color: palegoldenrod; 
+
+
+
+
+
+
+
+    }
+.about-container-one { 
+display: grid; 
+
+}
+
+.about-box-one {
+background-color: lightblue; 
+padding-top: 300;
+height: 90%; 
+text-align: center;
+font-size: 50; 
+font-family: helvetica; 
+color: gray;
+}
+
+.about-container-two {
+ display: grid; 
+}
+
+.about-box-two {
+background: url("images/indie-music-concert.jpg");;
+height: 75%; 
+text-align: center;
+padding-top: 150px;
+color: #333;
+font-size: 25px;
+
+}
+
+
+
+
+
+
+.music-container-one { 
+    display: grid;
+}
+
+.music-box-one {
+background-color: gray;
+padding-top: 300;  
+height: 90%; 
+text-align: center;
+font-size: 50; 
+font-family: helvetica; 
+color: lightsalmon;
+}
+
+.music-container-two {
+ display: grid;
+ display: inline-block;
+ grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.music-box-two {
+background-color: #fff;
+padding: 4px;
+padding-right: 0px;
+height: 203%;
+}
+
+.music-container-three { 
+    display: grid;
+}
+
+.music-box-three {
+background-color: gray; 
+height: 50%; 
+text-align: center;
+padding-top: 30px;
+
+}
+
+
+
+
+
+
+.members-container-one { 
+display: grid;
+}
+
+.members-box-one {
+background-color: #ccd1d5;
+padding-top: 300; 
+height: 90%;
+text-align: center; 
+font-size: 50;
+font-family: helvetica; 
+color: #ff9117; 
+}
+
+.members-container-two {
+display: grid;
+grid-template-columns: 50% 50%; 
+}
+
+.members-box-two {
+background-color: black; 
+height: 100%;
+padding-left: 100;
+}
+
+.members-box-three { 
+background-color: lightsalmon; 
+padding-top: 235;
+text-align: center;
+color: #fff;
+font-family: baskerville light;
+font-size:25px;
+}
+
+.members-container-three {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  }
+
+.members-box-four { 
+background-color: lightblue; 
+height: 100%;
+padding-top: 250;
+text-align: center;
+color: #fff;
+font-family: baskerville light;
+font-size: 25px;
+ }
+
+ .members-box-five {
+background-color: black; 
+height: 100%;
+padding-left: 115; 
+}
+
+.members-container-four {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  }
+
+  .members-box-six {
+  background-color:black; 
+  height: 100%;
+  padding-left:100;
+    }
+
+  .members-box-seven { 
+  background-color: lightyellow; 
+  height: 100%;
+  padding-top: 230;
+  text-align: center;
+  color:black;
+  font-family: baskerville light;
+  font-size:25px;
+  }
+
+  .members-container-five {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    }
+
+    .members-box-eight { 
+      background-color: #ff9117; 
+      height: 100%;
+      padding-top: 240;
+      text-align: center;
+      color: #fff;
+        font-family: baskerville light;
+        font-size:25px;
+       }
+      
+       .members-box-nine {
+      background-color: black; 
+      height: 100%;
+      padding-left: 115; 
+      }
+      
+      
+      .members-container-six {
+        display: grid;
+        grid-template-columns: 50% 50%; 
+        }
+      
+        .members-box-ten {
+        background-color:black; 
+        height: 100%;
+        padding-left:100;
+          }
+      
+        .members-box-eleven { 
+        background-color:#ccd1d5; 
+        height: 60%;
+        padding-top: 250;
+        text-align: center;
+        color: #fff;
+        font-family: baskerville light;
+        font-size: 25px;
+        }
+
+
+
+
+
+
+
+
+
+      .shows-container-one { 
+    display: grid;
+    }
+    
+.shows-box-one {
+background-color: #ffaa8e;
+padding-top: 300; 
+height: 90%;
+text-align: center; 
+font-size: 50;
+font-family: helvetica; 
+color: #fff; 
+}
+
+.shows-container-two { 
+    display: grid;
+    }
+
+.shows-box-two {
+background-color: #333;
+padding-top: 130; 
+height: 100%;
+text-align: center; 
+font-size: 20;
+font-family: helvetica; 
+color: #fff; 
+}
